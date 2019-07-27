@@ -1,20 +1,24 @@
-.image-text
+/*.image-text
 {
   position: absolute;
+  font-size: 100%;
   top: 120px;
-  left: 80px;
-  font-size: 200%;
+  left: 80px
   text-align: justify;
   font-family: :serif;
-}
-
+}*/
+/*.image
+{
+  display: flex-reverse;
+}*/
+/*
 #button
 {
   position: absolute;
   top: 240px;
   left: 80px;
 
-}
+}*/
 
 .card
 {
@@ -24,4 +28,14 @@
 
 
 
+}
+
+.accordion .card-header:after {
+    font-family: 'FontAwesome';  
+    content: "\f068";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f067"; 
 }

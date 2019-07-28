@@ -9,17 +9,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-<link rel="script" href="Main.js">
-
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/> 
   
-  <style>
-  .fakeimg {
-    height: 200px;
-    background: #aaa;
-  }
-  </style>
 </head>
 <body>
 
@@ -47,41 +39,23 @@
     <li class="nav-item">
       <a class="nav-link" href="#">Learn & Compare</a>
     </li>
-
     <li class="nav-item">
-  <form class="form-inline">
-    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <form class="form-inline" >
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
     <button class="btn btn-success" type="submit">Search</button>
   </form></li>
-    </ul>  
+  </ul>  
 
 </div>
 </nav>
 
 
-<div class="jumbotron text-right" style="margin-bottom:0; display: flex;">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="container">
-          <div class="col">
-            <div class="row-sm-8">
-              <div class="image-text" >We Take Pride in <br> How We do Business.</div>
-            </div>
-            <div class="row-sm-4">
-              <button type="button" class="btn btn-info" id="button">Get Started </button>
-            </div>
-          </div>
-        </div>
-        
-        
-      </div>
-      <div class="col-sm-8">
-        <div class="image"><img src="https://www.ponyview.com/wp-content/uploads/2018/09/insurance-keyboard.jpg" class="img-responsive" width="80%" height="" ></div>      
-      </div>
-    </div>
+<div class="jumbotron text-right" style="margin-bottom:0;">
+    <div class="image-text" style="font-size:4vw;">We Take Pride in <br> How We do Business.</div>
+      <div >  <button type="button" class="btn btn-info" id="button">Get Started </button></div>
+        <div><img src="https://www.ponyview.com/wp-content/uploads/2018/09/insurance-keyboard.jpg" class="img-responsive" width="90%" height="60%" ></div>      
+     
   </div>
-</div>
 
   
 
@@ -92,9 +66,9 @@
     <div class="card">
       <img src="data:image/jpeg;base64,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">
       <div class="card-body">
-        <h5 class="card-title">Health Insurance</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <h5 class="card-title">Undertand the basics</h5>
+        <p class="card-text">You can start on the path of achieving your personal and financial goals by beginning with an introductory overview.  Find out more about life insurance and retirement planning.</p>
+        <a href="#" class="btn btn-outline-dark">Learn More</a>
       </div>
     </div>
   </div>
@@ -102,9 +76,9 @@
     <div class="card" >
       <img src="data:image/jpeg;base64,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">
       <div class="card-body">
-        <h5 class="card-title">Property Insurance</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <h5 class="card-title">Compare Products</h5>
+        <p class="card-text">Sometimes the easiest way to learn is by seeing how things stack up. Take a closer look at some of our life insurance choices.</p><br>
+        <a href="#" class="btn btn-outline-dark">Learn More</a>
       </div>
     </div>
   </div>
@@ -112,51 +86,90 @@
     <div class="card">
       <img src="data:image/jpeg;base64,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">
       <div class="card-body">
-        <h5 class="card-title">Insurance</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Learn More</a>
+        <h5 class="card-title">Connect with a financial professional</h5>
+        <p class="card-text">Our financial professionals have a wealth of experience and can clarify any questions you may have.</p><br>
+        <a href="#" class="btn btn-outline-dark">Learn More</a>
       </div>
     </div>
   </div>
 </div>
 </div>
 
-<div class="container">
-    <div id="accordion" class="accordion">
-        <div class="card col-sm-10">
-            <div class="card-header collapsed" data-toggle="collapse" href="#collapseOne">
-                <a class="card-title">
-                    When is the right time to buy life insurance? Am I too old or too young?
-                </a>
-            </div>
-            <div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
-                <p>Life insurance can play an important role in your financial security at any stage of life. Starting sooner allows you to save more and gives you more budget-friendly options.
-                </p>
-            </div>
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                <a class="card-title">
-                  Item 2
-                </a>
-            </div>
-            <div id="collapseTwo" class="card-body collapse" data-parent="#accordion" >
-                <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                    craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                </p>
-            </div>
-            <div class="card-header collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                <a class="card-title">
-                  Item 3
-                </a>
-            </div>
-            <div id="collapseThree" class="collapse" data-parent="#accordion" >
-                <div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                    aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. samus labore sustainable VHS.
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="twoColumns"  style="padding-left: 15px;">
+  <h1 >Meeting you wherever you are on your life journey.</h1>
+      <h5>Whether you’re just starting out, juggling family and career, or approaching retirement—you can rely on our experience to help you make the right decisions. </h5>
 </div>
+
+
+<div style="text-align: right;">
+  <img src="http://www.family-apartman.hu/uploads/pictures/natur_mit_der_familie_erleben_02.jpg" class="img-responsive" >
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 style="padding-left: 15px;">Frequently Asked Questions:</h2>
+
+ <div class="container">
+  <h3 style="color:#205f70;; padding-top: 15px; padding-bottom: 15px; border-bottom: 3px solid #fff;">Life Insurance</h3>
+   <button class="accordion">When is the right time to buy life insurance? Am I too young ? Too old?</button>
+     <div class="accordion-content">
+      <p> Life insurance can play an important role in your financial security at any stage of life. Starting sooner allows you to save more and gives you more budget-friendly options.</p>
+    </div>
+    <button class="accordion">How do I determine what kind of insurance is best for my life?</button>
+     <div class="accordion-content">
+      <p>It all depends on your needs. If you’re looking for immediate protection without committing to a permanent policy now, you may want to consider term life. If you need a versatile policy to protect your loved ones and give you cash value that you can access, think about whole life.*</p>
+    </div>
+    <button class="accordion">I have limited budget. What are my life insurance options?</button>
+     <div class="accordion-content">
+      <p>We have many options for both temporary and permanent life insurance policies—many people select a combination of both to fit within their budget. </p>
+    </div>
+    <button class="accordion">Do I need individual life insurance if I'm enrolled in aplan through my employer?</button>
+     <div class="accordion-content">
+      <p> Many insurance plans provided by employers still leave a financial gap. Our financial professionals can work with you to determine exactly what you need.</p>
+    </div>
+ </div>
+
+ <div class="container">
+  <h3 style="color: #205f70;; padding-top: 15px; padding-bottom: 15px; border-bottom: 3px solid #fff;">Planning for Retirement</h3>
+   <button class="accordion">What role can insurance play in retirement?</button>
+     <div class="accordion-content">
+      <p>Not only can insurance protect you, you can also use its cash value to provide a supplemental income stream if your life insurance needs decrease in retirement.*</p>
+    </div>
+    <button class="accordion">What if my priorities change in retirement? What products can help?</button>
+     <div class="accordion-content">
+      <p>Many life insurance policies offer cash value that you can access in retirement.* Guaranteed income products, which are called income annuities, can help maintain your income, so you can use your other savings on things like travel and spending time with your family. </p>
+    </div>
+    <button class="accordion">Can life insurance and long term care insurance help protect my assets in retirement?</button>
+     <div class="accordion-content">
+      <p>Yes, both help protect your assets. Life insurance can allow you to tap into your cash if you need it. Long term care insurance can help fund expenses related to costs for extended periods of care. </p>
+    </div>
+ </div>
+
+ <script src="Main.js" type="text/javascript"></script>
+
+
+<div class="container" id="stories" > 
+
+  <h2 align="center" style="padding-top: 10px;">Our Stories</h2>
+     <h6 align="center" style="padding-top:2px;">Our commitment to our clients: guidance, caring, and expertise.</h6>
+       <div class="row">
+          <img style="padding-left: 10px;" src="https://media.gettyimages.com/photos/happy-indian-family-at-the-park-picture-id179062859?b=1&k=6&m=179062859&s=612x612&w=0&h=Z8ZlnahgCF_2I8zcFsJEVCwT77WYcKzwcDRcK_PJdA8=" class="img-responsive">
+               <img style="padding-left: 10px; padding-right: 10px"  src="https://static1.squarespace.com/static/55b9a475e4b03378627769d0/569e6bde76d99c4f392835fc/5c5b307e104c7bed8948d8ff/1549480070092/Alexander+Family+Pictures+2019-high+res-0019.jpg?format=1000w" class="img-responsive">
+        </div>
+</div>
+
+
 
 
 <div class="jumbotron text-center" style="margin-bottom: 0;" >
